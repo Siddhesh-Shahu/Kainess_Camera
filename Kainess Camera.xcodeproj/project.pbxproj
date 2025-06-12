@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5AAB49B82DF9C3AB005ADF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AAB49A22DF9C3A7005ADF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AAB49A92DF9C3A7005ADF74;
+			remoteInfo = "Kainess Camera";
+		};
+		5AAB49C22DF9C3AB005ADF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AAB49A22DF9C3A7005ADF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AAB49A92DF9C3A7005ADF74;
+			remoteInfo = "Kainess Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AAB49AA2DF9C3A7005ADF74 /* Kainess Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kainess Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAB49B72DF9C3AB005ADF74 /* Kainess CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kainess CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAB49C12DF9C3AB005ADF74 /* Kainess CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kainess CameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5AAB49AC2DF9C3A7005ADF74 /* Kainess Camera */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kainess Camera";
+			sourceTree = "<group>";
+		};
+		5AAB49BA2DF9C3AB005ADF74 /* Kainess CameraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kainess CameraTests";
+			sourceTree = "<group>";
+		};
+		5AAB49C42DF9C3AB005ADF74 /* Kainess CameraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kainess CameraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AAB49A72DF9C3A7005ADF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB49B42DF9C3AB005ADF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB49BE2DF9C3AB005ADF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AAB49A12DF9C3A7005ADF74 = {
+			isa = PBXGroup;
+			children = (
+				5AAB49AC2DF9C3A7005ADF74 /* Kainess Camera */,
+				5AAB49BA2DF9C3AB005ADF74 /* Kainess CameraTests */,
+				5AAB49C42DF9C3AB005ADF74 /* Kainess CameraUITests */,
+				5AAB49AB2DF9C3A7005ADF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AAB49AB2DF9C3A7005ADF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB49AA2DF9C3A7005ADF74 /* Kainess Camera.app */,
+				5AAB49B72DF9C3AB005ADF74 /* Kainess CameraTests.xctest */,
+				5AAB49C12DF9C3AB005ADF74 /* Kainess CameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AAB49A92DF9C3A7005ADF74 /* Kainess Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAB49CB2DF9C3AB005ADF74 /* Build configuration list for PBXNativeTarget "Kainess Camera" */;
+			buildPhases = (
+				5AAB49A62DF9C3A7005ADF74 /* Sources */,
+				5AAB49A72DF9C3A7005ADF74 /* Frameworks */,
+				5AAB49A82DF9C3A7005ADF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5AAB49AC2DF9C3A7005ADF74 /* Kainess Camera */,
+			);
+			name = "Kainess Camera";
+			packageProductDependencies = (
+			);
+			productName = "Kainess Camera";
+			productReference = 5AAB49AA2DF9C3A7005ADF74 /* Kainess Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AAB49B62DF9C3AB005ADF74 /* Kainess CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAB49CE2DF9C3AB005ADF74 /* Build configuration list for PBXNativeTarget "Kainess CameraTests" */;
+			buildPhases = (
+				5AAB49B32DF9C3AB005ADF74 /* Sources */,
+				5AAB49B42DF9C3AB005ADF74 /* Frameworks */,
+				5AAB49B52DF9C3AB005ADF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AAB49B92DF9C3AB005ADF74 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AAB49BA2DF9C3AB005ADF74 /* Kainess CameraTests */,
+			);
+			name = "Kainess CameraTests";
+			packageProductDependencies = (
+			);
+			productName = "Kainess CameraTests";
+			productReference = 5AAB49B72DF9C3AB005ADF74 /* Kainess CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AAB49C02DF9C3AB005ADF74 /* Kainess CameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAB49D12DF9C3AB005ADF74 /* Build configuration list for PBXNativeTarget "Kainess CameraUITests" */;
+			buildPhases = (
+				5AAB49BD2DF9C3AB005ADF74 /* Sources */,
+				5AAB49BE2DF9C3AB005ADF74 /* Frameworks */,
+				5AAB49BF2DF9C3AB005ADF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AAB49C32DF9C3AB005ADF74 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AAB49C42DF9C3AB005ADF74 /* Kainess CameraUITests */,
+			);
+			name = "Kainess CameraUITests";
+			packageProductDependencies = (
+			);
+			productName = "Kainess CameraUITests";
+			productReference = 5AAB49C12DF9C3AB005ADF74 /* Kainess CameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AAB49A22DF9C3A7005ADF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5AAB49A92DF9C3A7005ADF74 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5AAB49B62DF9C3AB005ADF74 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5AAB49A92DF9C3A7005ADF74;
+					};
+					5AAB49C02DF9C3AB005ADF74 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5AAB49A92DF9C3A7005ADF74;
+					};
+				};
+			};
+			buildConfigurationList = 5AAB49A52DF9C3A7005ADF74 /* Build configuration list for PBXProject "Kainess Camera" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AAB49A12DF9C3A7005ADF74;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5AAB49AB2DF9C3A7005ADF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AAB49A92DF9C3A7005ADF74 /* Kainess Camera */,
+				5AAB49B62DF9C3AB005ADF74 /* Kainess CameraTests */,
+				5AAB49C02DF9C3AB005ADF74 /* Kainess CameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AAB49A82DF9C3A7005ADF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB49B52DF9C3AB005ADF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB49BF2DF9C3AB005ADF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AAB49A62DF9C3A7005ADF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB49B32DF9C3AB005ADF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB49BD2DF9C3AB005ADF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AAB49B92DF9C3AB005ADF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AAB49A92DF9C3A7005ADF74 /* Kainess Camera */;
+			targetProxy = 5AAB49B82DF9C3AB005ADF74 /* PBXContainerItemProxy */;
+		};
+		5AAB49C32DF9C3AB005ADF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AAB49A92DF9C3A7005ADF74 /* Kainess Camera */;
+			targetProxy = 5AAB49C22DF9C3AB005ADF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AAB49C92DF9C3AB005ADF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 956XGTD246;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AAB49CA2DF9C3AB005ADF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 956XGTD246;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AAB49CC2DF9C3AB005ADF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956XGTD246;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kainess-Camera-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We require camera access to capture retro photos with effects.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app saves your retro photos to the photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to save your captured photos to the Photo Library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kainess-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AAB49CD2DF9C3AB005ADF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956XGTD246;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kainess-Camera-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We require camera access to capture retro photos with effects.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app saves your retro photos to the photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to save your captured photos to the Photo Library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kainess-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AAB49CF2DF9C3AB005ADF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956XGTD246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kainess-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kainess Camera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kainess Camera";
+			};
+			name = Debug;
+		};
+		5AAB49D02DF9C3AB005ADF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956XGTD246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kainess-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kainess Camera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kainess Camera";
+			};
+			name = Release;
+		};
+		5AAB49D22DF9C3AB005ADF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956XGTD246;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kainess-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kainess Camera";
+			};
+			name = Debug;
+		};
+		5AAB49D32DF9C3AB005ADF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956XGTD246;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kainess-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kainess Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AAB49A52DF9C3A7005ADF74 /* Build configuration list for PBXProject "Kainess Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAB49C92DF9C3AB005ADF74 /* Debug */,
+				5AAB49CA2DF9C3AB005ADF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAB49CB2DF9C3AB005ADF74 /* Build configuration list for PBXNativeTarget "Kainess Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAB49CC2DF9C3AB005ADF74 /* Debug */,
+				5AAB49CD2DF9C3AB005ADF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAB49CE2DF9C3AB005ADF74 /* Build configuration list for PBXNativeTarget "Kainess CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAB49CF2DF9C3AB005ADF74 /* Debug */,
+				5AAB49D02DF9C3AB005ADF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAB49D12DF9C3AB005ADF74 /* Build configuration list for PBXNativeTarget "Kainess CameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAB49D22DF9C3AB005ADF74 /* Debug */,
+				5AAB49D32DF9C3AB005ADF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AAB49A22DF9C3A7005ADF74 /* Project object */;
+}
